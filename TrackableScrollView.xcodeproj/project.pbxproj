@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1CC74323B4D165008A9C8A /* View+TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CC74223B4D165008A9C8A /* View+TrackableScrollView.swift */; };
+		0E1CC74723B4D2DC008A9C8A /* CGFloat+TrackableScrollView..swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1CC74623B4D2DC008A9C8A /* CGFloat+TrackableScrollView..swift */; };
 		0EC2087423B4020B006C03E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2087323B4020B006C03E8 /* AppDelegate.swift */; };
 		0EC2087623B4020B006C03E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2087523B4020B006C03E8 /* SceneDelegate.swift */; };
-		0EC2087823B4020B006C03E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2087723B4020B006C03E8 /* ContentView.swift */; };
+		0EC2087823B4020B006C03E8 /* DemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2087723B4020B006C03E8 /* DemoView.swift */; };
 		0EC2087A23B40211006C03E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC2087923B40211006C03E8 /* Assets.xcassets */; };
 		0EC2087D23B40211006C03E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC2087C23B40211006C03E8 /* Preview Assets.xcassets */; };
 		0EC2088023B40211006C03E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC2087E23B40211006C03E8 /* LaunchScreen.storyboard */; };
 		0EC2088B23B40211006C03E8 /* TrackableScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2088A23B40211006C03E8 /* TrackableScrollViewTests.swift */; };
 		0EC2089623B40211006C03E8 /* TrackableScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2089523B40211006C03E8 /* TrackableScrollViewUITests.swift */; };
+		0EC208A523B4022F006C03E8 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC208A423B4022F006C03E8 /* TrackableScrollView.swift */; };
+		0EC208A723B40250006C03E8 /* ScrollOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC208A623B40250006C03E8 /* ScrollOffsetPreferenceKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1CC74223B4D165008A9C8A /* View+TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+TrackableScrollView.swift"; sourceTree = "<group>"; };
+		0E1CC74623B4D2DC008A9C8A /* CGFloat+TrackableScrollView..swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+TrackableScrollView..swift"; sourceTree = "<group>"; };
 		0EC2087023B4020B006C03E8 /* TrackableScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackableScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC2087323B4020B006C03E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EC2087523B4020B006C03E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0EC2087723B4020B006C03E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0EC2087723B4020B006C03E8 /* DemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoView.swift; sourceTree = "<group>"; };
 		0EC2087923B40211006C03E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0EC2087C23B40211006C03E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EC2087F23B40211006C03E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,8 @@
 		0EC2089123B40211006C03E8 /* TrackableScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackableScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC2089523B40211006C03E8 /* TrackableScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollViewUITests.swift; sourceTree = "<group>"; };
 		0EC2089723B40211006C03E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EC208A423B4022F006C03E8 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
+		0EC208A623B40250006C03E8 /* ScrollOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,10 @@
 			children = (
 				0EC2087323B4020B006C03E8 /* AppDelegate.swift */,
 				0EC2087523B4020B006C03E8 /* SceneDelegate.swift */,
-				0EC2087723B4020B006C03E8 /* ContentView.swift */,
+				0EC2087723B4020B006C03E8 /* DemoView.swift */,
+				0E1CC74223B4D165008A9C8A /* View+TrackableScrollView.swift */,
+				0E1CC74623B4D2DC008A9C8A /* CGFloat+TrackableScrollView..swift */,
+				0EC208A323B40220006C03E8 /* TrackableScrollView */,
 				0EC2087923B40211006C03E8 /* Assets.xcassets */,
 				0EC2087E23B40211006C03E8 /* LaunchScreen.storyboard */,
 				0EC2088123B40211006C03E8 /* Info.plist */,
@@ -134,6 +145,15 @@
 				0EC2089723B40211006C03E8 /* Info.plist */,
 			);
 			path = TrackableScrollViewUITests;
+			sourceTree = "<group>";
+		};
+		0EC208A323B40220006C03E8 /* TrackableScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				0EC208A423B4022F006C03E8 /* TrackableScrollView.swift */,
+				0EC208A623B40250006C03E8 /* ScrollOffsetPreferenceKey.swift */,
+			);
+			path = TrackableScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +287,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E1CC74323B4D165008A9C8A /* View+TrackableScrollView.swift in Sources */,
 				0EC2087423B4020B006C03E8 /* AppDelegate.swift in Sources */,
 				0EC2087623B4020B006C03E8 /* SceneDelegate.swift in Sources */,
-				0EC2087823B4020B006C03E8 /* ContentView.swift in Sources */,
+				0E1CC74723B4D2DC008A9C8A /* CGFloat+TrackableScrollView..swift in Sources */,
+				0EC208A723B40250006C03E8 /* ScrollOffsetPreferenceKey.swift in Sources */,
+				0EC2087823B4020B006C03E8 /* DemoView.swift in Sources */,
+				0EC208A523B4022F006C03E8 /* TrackableScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

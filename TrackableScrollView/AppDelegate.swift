@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  TrackableScrollView
 //
-//  Created by Natchanon A. on 26/12/2562 BE.
-//  Copyright © 2562 Natchanon A. All rights reserved.
+//  Created by maxnatchanon on 26/12/2019 BE.
+//  Copyright © 2019 maxnatchanon All rights reserved.
 //
 
 import UIKit
