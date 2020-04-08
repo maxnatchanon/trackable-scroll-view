@@ -15,28 +15,9 @@
 		0EC2087A23B40211006C03E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC2087923B40211006C03E8 /* Assets.xcassets */; };
 		0EC2087D23B40211006C03E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EC2087C23B40211006C03E8 /* Preview Assets.xcassets */; };
 		0EC2088023B40211006C03E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EC2087E23B40211006C03E8 /* LaunchScreen.storyboard */; };
-		0EC2088B23B40211006C03E8 /* TrackableScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2088A23B40211006C03E8 /* TrackableScrollViewTests.swift */; };
-		0EC2089623B40211006C03E8 /* TrackableScrollViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC2089523B40211006C03E8 /* TrackableScrollViewUITests.swift */; };
 		0EC208A523B4022F006C03E8 /* TrackableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC208A423B4022F006C03E8 /* TrackableScrollView.swift */; };
 		0EC208A723B40250006C03E8 /* ScrollOffsetPreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC208A623B40250006C03E8 /* ScrollOffsetPreferenceKey.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0EC2088723B40211006C03E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0EC2086823B4020B006C03E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0EC2086F23B4020B006C03E8;
-			remoteInfo = TrackableScrollView;
-		};
-		0EC2089223B40211006C03E8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0EC2086823B4020B006C03E8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0EC2086F23B4020B006C03E8;
-			remoteInfo = TrackableScrollView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0E1CC74223B4D165008A9C8A /* View+TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+TrackableScrollView.swift"; sourceTree = "<group>"; };
@@ -49,32 +30,12 @@
 		0EC2087C23B40211006C03E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0EC2087F23B40211006C03E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0EC2088123B40211006C03E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EC2088623B40211006C03E8 /* TrackableScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackableScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EC2088A23B40211006C03E8 /* TrackableScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollViewTests.swift; sourceTree = "<group>"; };
-		0EC2088C23B40211006C03E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0EC2089123B40211006C03E8 /* TrackableScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackableScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EC2089523B40211006C03E8 /* TrackableScrollViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollViewUITests.swift; sourceTree = "<group>"; };
-		0EC2089723B40211006C03E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0EC208A423B4022F006C03E8 /* TrackableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableScrollView.swift; sourceTree = "<group>"; };
 		0EC208A623B40250006C03E8 /* ScrollOffsetPreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffsetPreferenceKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0EC2086D23B4020B006C03E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EC2088323B40211006C03E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EC2088E23B40211006C03E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +49,6 @@
 			isa = PBXGroup;
 			children = (
 				0EC2087223B4020B006C03E8 /* TrackableScrollView */,
-				0EC2088923B40211006C03E8 /* TrackableScrollViewTests */,
-				0EC2089423B40211006C03E8 /* TrackableScrollViewUITests */,
 				0EC2087123B4020B006C03E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -98,8 +57,6 @@
 			isa = PBXGroup;
 			children = (
 				0EC2087023B4020B006C03E8 /* TrackableScrollView.app */,
-				0EC2088623B40211006C03E8 /* TrackableScrollViewTests.xctest */,
-				0EC2089123B40211006C03E8 /* TrackableScrollViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,24 +84,6 @@
 				0EC2087C23B40211006C03E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		0EC2088923B40211006C03E8 /* TrackableScrollViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				0EC2088A23B40211006C03E8 /* TrackableScrollViewTests.swift */,
-				0EC2088C23B40211006C03E8 /* Info.plist */,
-			);
-			path = TrackableScrollViewTests;
-			sourceTree = "<group>";
-		};
-		0EC2089423B40211006C03E8 /* TrackableScrollViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0EC2089523B40211006C03E8 /* TrackableScrollViewUITests.swift */,
-				0EC2089723B40211006C03E8 /* Info.plist */,
-			);
-			path = TrackableScrollViewUITests;
 			sourceTree = "<group>";
 		};
 		0EC208A323B40220006C03E8 /* TrackableScrollView */ = {
@@ -176,42 +115,6 @@
 			productReference = 0EC2087023B4020B006C03E8 /* TrackableScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0EC2088523B40211006C03E8 /* TrackableScrollViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0EC2089D23B40211006C03E8 /* Build configuration list for PBXNativeTarget "TrackableScrollViewTests" */;
-			buildPhases = (
-				0EC2088223B40211006C03E8 /* Sources */,
-				0EC2088323B40211006C03E8 /* Frameworks */,
-				0EC2088423B40211006C03E8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EC2088823B40211006C03E8 /* PBXTargetDependency */,
-			);
-			name = TrackableScrollViewTests;
-			productName = TrackableScrollViewTests;
-			productReference = 0EC2088623B40211006C03E8 /* TrackableScrollViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0EC2089023B40211006C03E8 /* TrackableScrollViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0EC208A023B40211006C03E8 /* Build configuration list for PBXNativeTarget "TrackableScrollViewUITests" */;
-			buildPhases = (
-				0EC2088D23B40211006C03E8 /* Sources */,
-				0EC2088E23B40211006C03E8 /* Frameworks */,
-				0EC2088F23B40211006C03E8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0EC2089323B40211006C03E8 /* PBXTargetDependency */,
-			);
-			name = TrackableScrollViewUITests;
-			productName = TrackableScrollViewUITests;
-			productReference = 0EC2089123B40211006C03E8 /* TrackableScrollViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -224,14 +127,6 @@
 				TargetAttributes = {
 					0EC2086F23B4020B006C03E8 = {
 						CreatedOnToolsVersion = 11.3;
-					};
-					0EC2088523B40211006C03E8 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 0EC2086F23B4020B006C03E8;
-					};
-					0EC2089023B40211006C03E8 = {
-						CreatedOnToolsVersion = 11.3;
-						TestTargetID = 0EC2086F23B4020B006C03E8;
 					};
 				};
 			};
@@ -249,8 +144,6 @@
 			projectRoot = "";
 			targets = (
 				0EC2086F23B4020B006C03E8 /* TrackableScrollView */,
-				0EC2088523B40211006C03E8 /* TrackableScrollViewTests */,
-				0EC2089023B40211006C03E8 /* TrackableScrollViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -263,20 +156,6 @@
 				0EC2088023B40211006C03E8 /* LaunchScreen.storyboard in Resources */,
 				0EC2087D23B40211006C03E8 /* Preview Assets.xcassets in Resources */,
 				0EC2087A23B40211006C03E8 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EC2088423B40211006C03E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EC2088F23B40211006C03E8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,36 +176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EC2088223B40211006C03E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EC2088B23B40211006C03E8 /* TrackableScrollViewTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0EC2088D23B40211006C03E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0EC2089623B40211006C03E8 /* TrackableScrollViewUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0EC2088823B40211006C03E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0EC2086F23B4020B006C03E8 /* TrackableScrollView */;
-			targetProxy = 0EC2088723B40211006C03E8 /* PBXContainerItemProxy */;
-		};
-		0EC2089323B40211006C03E8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0EC2086F23B4020B006C03E8 /* TrackableScrollView */;
-			targetProxy = 0EC2089223B40211006C03E8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0EC2087E23B40211006C03E8 /* LaunchScreen.storyboard */ = {
@@ -494,90 +344,6 @@
 			};
 			name = Release;
 		};
-		0EC2089E23B40211006C03E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S77U83ZW64;
-				INFOPLIST_FILE = TrackableScrollViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natchanona.TrackableScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackableScrollView.app/TrackableScrollView";
-			};
-			name = Debug;
-		};
-		0EC2089F23B40211006C03E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S77U83ZW64;
-				INFOPLIST_FILE = TrackableScrollViewTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natchanona.TrackableScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrackableScrollView.app/TrackableScrollView";
-			};
-			name = Release;
-		};
-		0EC208A123B40211006C03E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S77U83ZW64;
-				INFOPLIST_FILE = TrackableScrollViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natchanona.TrackableScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TrackableScrollView;
-			};
-			name = Debug;
-		};
-		0EC208A223B40211006C03E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S77U83ZW64;
-				INFOPLIST_FILE = TrackableScrollViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.natchanona.TrackableScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TrackableScrollView;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -595,24 +361,6 @@
 			buildConfigurations = (
 				0EC2089B23B40211006C03E8 /* Debug */,
 				0EC2089C23B40211006C03E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0EC2089D23B40211006C03E8 /* Build configuration list for PBXNativeTarget "TrackableScrollViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0EC2089E23B40211006C03E8 /* Debug */,
-				0EC2089F23B40211006C03E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0EC208A023B40211006C03E8 /* Build configuration list for PBXNativeTarget "TrackableScrollViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0EC208A123B40211006C03E8 /* Debug */,
-				0EC208A223B40211006C03E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
