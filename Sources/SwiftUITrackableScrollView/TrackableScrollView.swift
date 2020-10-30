@@ -5,23 +5,23 @@
 //  Created by maxnatchanon on 26/12/2019 BE.
 //  Copyright © 2019 maxnatchanon All rights reserved.
 //
-
 import SwiftUI
 
-struct TrackableScrollView<Content>: View where Content: View {
+@available(iOS 13.0, *)
+public struct TrackableScrollView<Content>: View where Content: View {
     let axes: Axis.Set
     let showIndicators: Bool
     @Binding var contentOffset: CGFloat
     let content: Content
     
-    init(_ axes: Axis.Set = .vertical, showIndicators: Bool = true, contentOffset: Binding<CGFloat>, @ViewBuilder content: () -> Content) {
+    public init(_ axes: Axis.Set = .vertical, showIndicators: Bool = true, contentOffset: Binding<CGFloat>, @ViewBuilder content: () -> Content) {
         self.axes = axes
         self.showIndicators = showIndicators
         self._contentOffset = contentOffset
         self.content = content()
     }
     
-    var body: some View {
+    public var body: some View {
         GeometryReader { outsideProxy in
             ScrollView(self.axes, showsIndicators: self.showIndicators) {
                 ZStack(alignment: self.axes == .vertical ? .top : .leading) {
