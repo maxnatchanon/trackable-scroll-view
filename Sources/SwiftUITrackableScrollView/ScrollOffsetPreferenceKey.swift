@@ -7,6 +7,7 @@
 //
 import SwiftUI
 
+@available(macOS 10.15, *)
 @available(iOS 13.0, *)
 struct ScrollOffsetPreferenceKey: PreferenceKey {
     typealias Value = [CGFloat]
